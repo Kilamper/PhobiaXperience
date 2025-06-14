@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringTable_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: 24ee1d3551141a647ba8e43cf5f4b36f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13835038720
+    m_Localized: Sair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1956544376832
+    m_Localized: Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2328054853632
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2631756017664
+    m_Localized: Lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2947440308224
+    m_Localized: Acrofobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5941007347712
+    m_Localized: Volte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785732886528
+    m_Localized: Elevador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12253132877824
+    m_Localized: Claustrofobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12478312476672
+    m_Localized: Aerophobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12628367896576
+    m_Localized: Agorafobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12945641828352
+    m_Localized: Aracnofobia
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
