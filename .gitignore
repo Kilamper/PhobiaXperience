@@ -63,3 +63,8 @@ Thumbs.db
 
 # Crash Reports
 sysinfo.txt
+
+# Logs and reports
+opensim.log
+
+TempAssembly.dll
