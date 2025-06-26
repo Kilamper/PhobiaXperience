@@ -2,11 +2,15 @@ using UnityEngine;
 using TMPro;
 using TsSDK;
 using System.Linq;
+using System.Collections.Generic;
 
 public class HeartRateDisplay : MonoBehaviour
 {
     [SerializeField] TsPpgProvider ppgProvider;
     [SerializeField] TMP_Text bpmText;
+
+    private List<float> heartRateBatch = new List<float>();
+    private const int batchSize = 10;
 
     void Update()
     {
@@ -20,7 +24,15 @@ public class HeartRateDisplay : MonoBehaviour
 
                 if (!validNode.Equals(default(ProcessedPpgNodeData)))
                 {
-                    bpmText.text = $"{validNode.heartRate:F0}";
+                    heartRateBatch.Add(validNode.heartRate);
+
+                    // Esperar hasta tener 10 valores antes de mostrar
+                    if (heartRateBatch.Count == batchSize)
+                    {
+                        float average = heartRateBatch.Average();
+                        bpmText.text = $"{average:F0}";
+                        heartRateBatch.Clear(); // Reiniciar para la siguiente tanda de 5
+                    }
                 }
                 else
                 {
