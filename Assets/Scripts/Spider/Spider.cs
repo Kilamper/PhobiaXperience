@@ -52,7 +52,7 @@ public class Spider : MonoBehaviour
         {
             targets[i].position = targetPosOld[i];
 
-            if (Physics.Raycast(orbits[i].position, -transform.up, out hit, 10, layer))
+            if (Physics.Raycast(orbits[i].position, -transform.up, out hit, 0.1f, layer))
             {
                 if (Vector3.Distance(targets[i].position, hit.point) > stepLength)
                 {
@@ -67,7 +67,7 @@ public class Spider : MonoBehaviour
 
         for (int i = 0; i < orbits.Length; i++)
         {
-            Debug.DrawLine(orbits[i].position, orbits[i].position + -transform.up * 10, Color.red);
+            Debug.DrawLine(orbits[i].position, orbits[i].position + -transform.up * 0.1f, Color.red);
         }
 
         AdjustBodyPosition();
@@ -84,8 +84,8 @@ public class Spider : MonoBehaviour
             int oppositeIndex = Array.IndexOf(targets, leg);
             if (oppositeIndex == -1)
             {
-                Debug.LogWarning($"Leg '{leg.name}' not found in targets array.");
-                continue; // O return false, según tu lógica
+                //Debug.LogWarning($"Leg '{leg.name}' not found in targets array.");
+                continue;
             }
 
             if (!targetGrounded[oppositeIndex])
@@ -154,7 +154,7 @@ public class Spider : MonoBehaviour
         {
             if (targetGrounded[i])
             {
-                if (Physics.Raycast(orbits[i].position, -transform.up, out RaycastHit hitInfo, 10, layer))
+                if (Physics.Raycast(orbits[i].position, -transform.up, out RaycastHit hitInfo, 0.1f, layer))
                 {
                     normal += hitInfo.normal;
                 }
