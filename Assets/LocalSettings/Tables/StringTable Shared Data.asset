@@ -59,6 +59,18 @@ MonoBehaviour:
     m_Key: arachnophobia
     m_Metadata:
       m_Items: []
+  - m_Id: 6279396702941184
+    m_Key: generalVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279975646916608
+    m_Key: spider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6280176503746560
+    m_Key: showSpider
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

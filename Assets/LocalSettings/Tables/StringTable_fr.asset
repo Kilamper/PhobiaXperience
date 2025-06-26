@@ -62,6 +62,18 @@ MonoBehaviour:
     m_Localized: Arachnophobie
     m_Metadata:
       m_Items: []
+  - m_Id: 6279396702941184
+    m_Localized: Volume Generale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279975646916608
+    m_Localized: "Araign\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6280176503746560
+    m_Localized: "Afficher l'araign\xE9e"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

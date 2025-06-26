@@ -39,7 +39,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5941007347712
-    m_Localized: Torna indietro
+    m_Localized: Torna
     m_Metadata:
       m_Items: []
   - m_Id: 9785732886528
@@ -60,6 +60,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 12945641828352
     m_Localized: Aracnofobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279396702941184
+    m_Localized: "Volume G\xE9n\xE9ral"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279975646916608
+    m_Localized: Ragno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6280176503746560
+    m_Localized: Mostra ragno
     m_Metadata:
       m_Items: []
   references:
