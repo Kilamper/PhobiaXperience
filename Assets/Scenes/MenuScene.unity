@@ -3919,7 +3919,7 @@ MonoBehaviour:
   burgerButton: {fileID: 1802701696}
   additionalPanels:
   - {fileID: 359995488}
-  - {fileID: 0}
+  - {fileID: 1840765096}
 --- !u!1 &901733453
 GameObject:
   m_ObjectHideFlags: 0
@@ -4058,7 +4058,7 @@ MonoBehaviour:
   menuPanel: {fileID: 359995488}
   burgerButton: {fileID: 1418819286}
   additionalPanels:
-  - {fileID: 0}
+  - {fileID: 1840765096}
 --- !u!1 &924607031
 GameObject:
   m_ObjectHideFlags: 0
