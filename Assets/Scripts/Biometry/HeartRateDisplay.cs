@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using TsSDK;
 using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 
 public class HeartRateDisplay : MonoBehaviour
@@ -12,6 +13,9 @@ public class HeartRateDisplay : MonoBehaviour
     private List<float> heartRateBatch = new List<float>();
     private const int batchSize = 10;
 
+    private float updateInterval = 1f; // segundos
+    private bool isUpdating = false;
+
     void Update()
     {
         if (ppgProvider != null && ppgProvider.IsRunning)
@@ -19,19 +23,21 @@ public class HeartRateDisplay : MonoBehaviour
             var data = ppgProvider.GetData();
             if (data != null)
             {
-                // Buscar el primer nodo con BPM válido
                 var validNode = data.NodesData.FirstOrDefault(n => n.isHeartrateValid);
 
                 if (!validNode.Equals(default(ProcessedPpgNodeData)))
                 {
-                    heartRateBatch.Add(validNode.heartRate);
-
-                    // Esperar hasta tener 10 valores antes de mostrar
-                    if (heartRateBatch.Count == batchSize)
+                    if (!isUpdating)
                     {
-                        float average = heartRateBatch.Average();
-                        bpmText.text = $"{average:F0}";
-                        heartRateBatch.Clear(); // Reiniciar para la siguiente tanda de 5
+                        heartRateBatch.Add(validNode.heartRate);
+                        if (heartRateBatch.Count > batchSize)
+                            heartRateBatch.RemoveAt(0);
+
+                        // Solo iniciar la corrutina si no está ya corriendo
+                        if (heartRateBatch.Count == batchSize)
+                        {
+                            StartCoroutine(UpdateBpmRoutine());
+                        }
                     }
                 }
                 else
@@ -48,5 +54,19 @@ public class HeartRateDisplay : MonoBehaviour
         {
             bpmText.text = "---";
         }
+    }
+
+    private IEnumerator UpdateBpmRoutine()
+    {
+        isUpdating = true;
+
+        // Calcular y mostrar promedio
+        float average = heartRateBatch.Average();
+        bpmText.text = $"{average:F0}";
+
+        // Esperar antes de permitir otra actualización
+        yield return new WaitForSeconds(updateInterval);
+
+        isUpdating = false;
     }
 }
