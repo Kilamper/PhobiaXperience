@@ -74,6 +74,10 @@ MonoBehaviour:
     m_Localized: "Afficher l'araign\xE9e"
     m_Metadata:
       m_Items: []
+  - m_Id: 6966116444401664
+    m_Localized: "R\xE9initialiser l'araign\xE9e"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

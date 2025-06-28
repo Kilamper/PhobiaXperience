@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: showSpider
     m_Metadata:
       m_Items: []
+  - m_Id: 6966116444401664
+    m_Key: resetSpider
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

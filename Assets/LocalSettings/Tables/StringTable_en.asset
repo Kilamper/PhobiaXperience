@@ -74,6 +74,10 @@ MonoBehaviour:
     m_Localized: Show spider
     m_Metadata:
       m_Items: []
+  - m_Id: 6966116444401664
+    m_Localized: Reset spider
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
