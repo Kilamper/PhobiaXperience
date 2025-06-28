@@ -7707,7 +7707,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 5000
+    maxNumParticles: 10000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -12628,7 +12628,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 5000
+    maxNumParticles: 10000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -18437,7 +18437,7 @@ MonoBehaviour:
   burgerButton: {fileID: 1999509284}
   additionalPanels:
   - {fileID: 1091320750}
-  - {fileID: 0}
+  - {fileID: 115944006}
 --- !u!1 &465404971
 GameObject:
   m_ObjectHideFlags: 0
@@ -25681,7 +25681,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 10000
+    maxNumParticles: 20000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -31616,7 +31616,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 10000
+    maxNumParticles: 15000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -39079,7 +39079,7 @@ MonoBehaviour:
   burgerButton: {fileID: 1574516294}
   additionalPanels:
   - {fileID: 2364920}
-  - {fileID: 0}
+  - {fileID: 115944006}
 --- !u!1 &1104249277
 GameObject:
   m_ObjectHideFlags: 0
@@ -41476,7 +41476,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 10000
+    maxNumParticles: 20000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -48717,7 +48717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620445009b690a34193441fa14cb6b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPanel: {fileID: 0}
+  menuPanel: {fileID: 115944006}
   burgerButton: {fileID: 415989878}
   additionalPanels:
   - {fileID: 2364920}
@@ -51890,7 +51890,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 10000
+    maxNumParticles: 15000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -57756,7 +57756,7 @@ MonoBehaviour:
   additionalPanels:
   - {fileID: 2364920}
   - {fileID: 1091320750}
-  - {fileID: 0}
+  - {fileID: 115944006}
 --- !u!1 &1653284557
 GameObject:
   m_ObjectHideFlags: 0
@@ -62785,7 +62785,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 5000
+    maxNumParticles: 15000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -70507,7 +70507,7 @@ ParticleSystemRenderer:
   m_VertexStreams: 00010304
   m_UseCustomTrailVertexStreams: 0
   m_TrailVertexStreams: 00010304
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -71087,7 +71087,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 5000
+    maxNumParticles: 10000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
