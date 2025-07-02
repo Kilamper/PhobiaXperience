@@ -71,11 +71,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6280176503746560
-    m_Localized: "Afficher l'araign\xE9e"
+    m_Localized: "Afficher araign\xE9e"
     m_Metadata:
       m_Items: []
   - m_Id: 6966116444401664
-    m_Localized: "R\xE9initialiser l'araign\xE9e"
+    m_Localized: "R\xE9initialiser araign\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7986577689145344
+    m_Localized: "R\xE9initialiser bo\xEEte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7987343132848128
+    m_Localized: "D\xE9placer la bo\xEEte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8444878746939392
+    m_Localized: Calibrer hauteur
     m_Metadata:
       m_Items: []
   references:

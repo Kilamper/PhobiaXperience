@@ -78,6 +78,18 @@ MonoBehaviour:
     m_Localized: Reset spider
     m_Metadata:
       m_Items: []
+  - m_Id: 7986577689145344
+    m_Localized: Reset box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7987343132848128
+    m_Localized: Move box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8444878746939392
+    m_Localized: Calibrate height
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

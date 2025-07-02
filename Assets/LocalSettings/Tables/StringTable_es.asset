@@ -78,6 +78,18 @@ MonoBehaviour:
     m_Localized: "Restablecer ara\xF1a"
     m_Metadata:
       m_Items: []
+  - m_Id: 7986577689145344
+    m_Localized: Restablecer caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7987343132848128
+    m_Localized: Mover caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8444878746939392
+    m_Localized: Calibrar altura
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

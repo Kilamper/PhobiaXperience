@@ -75,6 +75,18 @@ MonoBehaviour:
     m_Key: resetSpider
     m_Metadata:
       m_Items: []
+  - m_Id: 7986577689145344
+    m_Key: resetBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7987343132848128
+    m_Key: moveBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8444878746939392
+    m_Key: calibrateHeight
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
