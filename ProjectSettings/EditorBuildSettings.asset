@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ArachnophobiaScene.unity
     guid: f55407b349c10ac43aae4f6a6cbc6440
+  - enabled: 1
+    path: Assets/Scenes/AgoraphobiaScene.unity
+    guid: 470318643bc5ce947b683abde412a416
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 231e5fad0be40e048a94e3c7f605afc8, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
