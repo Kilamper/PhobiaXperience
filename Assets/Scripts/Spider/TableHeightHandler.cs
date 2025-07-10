@@ -19,7 +19,6 @@ public class TableHeightHandler : MonoBehaviour
         sceneInitialPosition = scene.transform.position;
         boxInitialPosition = box.transform.position;
         spiderInitialPosition = spider.transform.position;
-
     }
 
     public void AdjustTableHeight()
